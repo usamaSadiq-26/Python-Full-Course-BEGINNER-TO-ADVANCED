@@ -73,4 +73,19 @@
 #day08
 #calculator solution explained
 
-#day09
+# #day09
+def printyourname(): #function ka name printyourname
+    print("Hanzala1")
+    print("Hanzala2")
+    print("Hanzala3")
+    print("Hanzala4")
+
+
+
+
+def firstcall():
+    print("first function call")
+    return printyourname()
+
+
+firstcall()
