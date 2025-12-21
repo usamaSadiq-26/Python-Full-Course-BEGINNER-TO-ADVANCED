@@ -74,18 +74,36 @@
 #calculator solution explained
 
 # #day09
-def printyourname(): #function ka name printyourname
-    print("Hanzala1")
-    print("Hanzala2")
-    print("Hanzala3")
-    print("Hanzala4")
+# def printyourname(): #function ka name printyourname
+#     print("Hanzala1")
+#     print("Hanzala2")
+#     print("Hanzala3")
+#     print("Hanzala4")
 
 
 
 
-def firstcall():
-    print("first function call")
-    return printyourname()
+# def firstcall():
+#     print("first function call")
+#     return printyourname()
 
 
-firstcall()
+# firstcall()
+
+
+# String Slicing, Operations in string:
+
+a = "Usama Sadiq"
+alen = len(a)
+
+print(alen)
+print(a[0:4])
+print(a[0:5])
+print(a[0:11])
+print(a[0:11])
+print(a[6:11])
+print(a[-6:11])
+print(a[-11:-6])
+
+for i in a:
+    print(i)
