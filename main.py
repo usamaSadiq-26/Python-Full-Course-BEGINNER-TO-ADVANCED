@@ -93,17 +93,42 @@
 
 # String Slicing, Operations in string:
 
-a = "Usama Sadiq"
-alen = len(a)
+# a = "Usama Sadiq"
+# alen = len(a)
 
-print(alen)
-print(a[0:4])
-print(a[0:5])
-print(a[0:11])
-print(a[0:11])
-print(a[6:11])
-print(a[-6:11])
-print(a[-11:-6])
+# print(alen)
+# print(a[0:4])
+# print(a[0:5])
+# print(a[0:11])
+# print(a[0:11])
+# print(a[6:11])
+# print(a[-6:11])
+# print(a[-11:-6])
 
-for i in a:
-    print(i)
+# for i in a:
+#     print(i)
+
+
+#DAY13
+
+# HOW TO FIND LENGTH OF A STRING IN PYTHON
+# a = "hey this is usama and today i will tell you how we can change any str data into upper case and lower case"
+# b = "today i wll go to work"
+
+# print(len(a))
+# print(len(b))
+
+# HOW WE CAN CONVERT A STRING DATA INTO UPPER CASE AND LOWER CASE
+
+# a = "upper"
+# b = "LOWER"
+
+# print(a.upper())
+# print(b.lower())
+
+# HOW WE CAN REPLACE ANY WORD IN STR DATA AND WHAR RSTRIP METHOD DO?
+
+# a = "Usama is a Web Developer!!!!!!!!"
+
+# print(a.rstrip("!"))
+# print(a.replace("Web","Python"))
