@@ -156,11 +156,11 @@
 # print(a.isalnum())  #check if all characters are alphanumeric
 # print(b.isalnum())  #check if all characters are alphanumeric
 
-a = "alsdnu2n379absdADASd238he82"
-b = "ASssbaisadbubosnalAS"
-c = "asdasdalkbhakyvcqaoshdoao"
+# a = "alsdnu2n379absdADASd238he82"
+# b = "ASssbaisadbubosnalAS"
+# c = "asdasdalkbhakyvcqaoshdoao"
 
-# print(a.isalpha())
-# print(b.isalpha())
-print(c.islower())
-print(a.islower())
+# # print(a.isalpha())
+# # print(b.isalpha())
+# print(c.islower())
+# print(a.islower())
