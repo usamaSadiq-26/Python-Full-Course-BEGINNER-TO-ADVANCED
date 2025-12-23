@@ -23,7 +23,7 @@
 # print("The type of a is", type(d))
 
 
-#day06
+# #day06
 # list1 = [1231,"LADIN",["WILL BE A PROFESSIONAL PYTHON DEVELOPER IN",2026]]
 # print(list1)
 
@@ -34,7 +34,7 @@
 # print(dict1)
 
 
-#day07
+# #day07
 # print(15+6) #Addition Operator
 # print(15-6) #Subtraction Operator
 # print(15*6) #Multiplication Operator
@@ -43,7 +43,7 @@
 # print(5%3) #Floor Division Operator
 # print(5**3) #Exponential Operator
 
-#HOW TO MAKE A CALCULATOR BY USING PYTHON
+# HOW TO MAKE A CALCULATOR BY USING PYTHON
 
 # a = 5
 # b = 3
@@ -90,7 +90,8 @@
 
 # firstcall()
 
-
+#day10
+# FUNCTION WITH ARGUMENTS AND PARAMETERS
 # String Slicing, Operations in string:
 
 # a = "Usama Sadiq"
@@ -133,4 +134,14 @@
 
 # print(a.rstrip("!"))
 # print(a.replace("Web","Python"))
+
+# OTHER METHODS IN STR DATA TYPE
+
+a = "usama is a Web Developer!!!!!!!!"
+
+print(a.capitalize()) #first letter capital
+print(len(a)) #length of str
+print(a.center(50)) #centered str with total width 50
+print(len(a.center(50))) #length of centered str
+print(a.count("e")) #count of e in str
 
