@@ -111,6 +111,7 @@
 
 #DAY13
 
+# STRINGS ARE IMMUTABLE IN PYTHON
 # HOW TO FIND LENGTH OF A STRING IN PYTHON
 # a = "hey this is usama and today i will tell you how we can change any str data into upper case and lower case"
 # b = "today i wll go to work"
@@ -132,3 +133,4 @@
 
 # print(a.rstrip("!"))
 # print(a.replace("Web","Python"))
+
