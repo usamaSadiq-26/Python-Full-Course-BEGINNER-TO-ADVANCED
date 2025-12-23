@@ -137,11 +137,30 @@
 
 # OTHER METHODS IN STR DATA TYPE
 
-a = "usama is a Web Developer!!!!!!!!"
+# a = "usama is a Web Developer!!!!!!!!"
 
-print(a.capitalize()) #first letter capital
-print(len(a)) #length of str
-print(a.center(50)) #centered str with total width 50
-print(len(a.center(50))) #length of centered str
-print(a.count("e")) #count of e in str
+# print(a.capitalize())           #first letter capital
+# print(len(a))                   #length of str
+# print(a.center(50))             #centered str with total width 50
+# print(len(a.center(50)))        #length of centered str
+# print(a.count("e"))             #count of e in str
+# print(a.endswith("!!!!!!!"))    #check if str ends with given value
+# print(a.endswith("!!!!@!!!!"))  #check if str ends with given value
+# print(a.endswith("w", 5,12))    #check if str ends with given value in given range
+# print(a.endswith("W", 5,12))    #check if str ends with given value in given range
+# print(a.find("WebD"))           #find the index of first occurrence of given value
 
+# a = "asdbaisfgauAo8e3028honx29h3d2xxn2h4b209u34n2"
+# b = "USAMASADIQ"
+
+# print(a.isalnum())  #check if all characters are alphanumeric
+# print(b.isalnum())  #check if all characters are alphanumeric
+
+a = "alsdnu2n379absdADASd238he82"
+b = "ASssbaisadbubosnalAS"
+c = "asdasdalkbhakyvcqaoshdoao"
+
+# print(a.isalpha())
+# print(b.isalpha())
+print(c.islower())
+print(a.islower())
