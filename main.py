@@ -128,6 +128,8 @@
 # print(a.upper())
 # print(b.lower())
 
+#Day 13
+# I will push the code soon
 # HOW WE CAN REPLACE ANY WORD IN STR DATA AND WHAR RSTRIP METHOD DO?
 
 # a = "Usama is a Web Developer!!!!!!!!"
