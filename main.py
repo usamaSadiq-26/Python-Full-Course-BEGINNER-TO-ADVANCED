@@ -166,3 +166,9 @@
 # # print(b.isalpha())
 # print(c.islower())
 # print(a.islower())
+
+# a= "Hello this is a variable for print method"
+# b= "Hello this is a variable for \nprint method"
+
+#print(a.isprintable())
+#print(b.isprintable())
