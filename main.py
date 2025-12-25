@@ -1,4 +1,4 @@
-# print('hey this is \"100days python code\" challenge\nand i am usama, your python teacher')
+ # print('hey this is \"100days python code\" challenge\nand i am usama, your python teacher')
 
 
 # a = 2000
@@ -161,6 +161,12 @@
 # c = "asdasdalkbhakyvcqaoshdoao"
 
 # # print(a.isalpha())
-# # print(b.isalpha())
+# # print(b.isalpha()) #check if all characters are alphabetic
 # print(c.islower())
-# print(a.islower())
+# print(a.islower()) #check if all characters are in lower case
+
+a = "hello today is a holiday"
+b = "     "
+print(a.isprintable()) #check if all characters are printable
+print(b.isspace())
+
