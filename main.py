@@ -172,3 +172,6 @@
 
 #print(a.isprintable())
 #print(b.isprintable())
+
+
+## today i am not feeling well, i will upload today's class. tomorrow.
