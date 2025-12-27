@@ -167,6 +167,15 @@
 # print(c.islower())
 # print(a.islower())
 
+# a= "Hello this is a variable for print method"
+# b= "Hello this is a variable for \nprint method"
+
+#print(a.isprintable())
+#print(b.isprintable())
+
+
+## today i am not feeling well, i will upload today's class. tomorrow.
+
 
 
 #Conditional operators
