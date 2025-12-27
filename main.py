@@ -181,16 +181,42 @@
 #Conditional operators
 # > , < , >= , <= , == , !=
 
+# a = int(input("Enter your Marks in Python: "))
+
+# if(a>=70):
+#     print("According to your marks, your grade is: A ")
+
+# elif(a>=50):
+#     print("According to your marks, your grade is: B ")
+
+# elif(a>=40):
+#     print("According to your marks, your grade is: C ")
+
+# else:
+#     print("According to your marks, your grade is: F ")
+
+
+
+
+
+# Nested Statement
+
 a = int(input("Enter your Marks in Python: "))
 
-if(a>=70):
-    print("According to your marks, your grade is: A ")
-
-elif(a>=50):
-    print("According to your marks, your grade is: B ")
+if(a>=90):
+    print("According to your marks, your grade is: A+ ")
 
 elif(a>=40):
-    print("According to your marks, your grade is: C ")
+    if (a>=40 and a<50):
+        print("According to your marks, your grade is: C ")
+    elif(a>=50 and a<60):
+        print("According to your marks, your grade is: C+ ")
+    elif(a>=60 and a<70):
+        print("According to your marks, your grade is: B ")
+    elif(a>=70 and a<80):
+        print("According to your marks, your grade is: B+ ")
+    else:
+        print("According to your marks, your grade is: A ")
 
 else:
     print("According to your marks, your grade is: F ")
