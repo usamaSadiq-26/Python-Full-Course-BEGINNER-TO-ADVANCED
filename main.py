@@ -1,4 +1,4 @@
- # print('hey this is \"100days python code\" challenge\nand i am usama, your python teacher')
+#  print('hey this is \"100days python code\" challenge\nand i am usama, your python teacher')
 
 
 # a = 2000
@@ -70,8 +70,8 @@
 # print("Exponential poewr of",b, "on",a,"is equals to", ans7)
 
 
-#day08
-#calculator solution explained
+# day08
+# calculator solution explained
 
 # #day09
 # def printyourname(): #function ka name printyourname
@@ -90,7 +90,7 @@
 
 # firstcall()
 
-#day10
+# day10
 # FUNCTION WITH ARGUMENTS AND PARAMETERS
 # String Slicing, Operations in string:
 
@@ -110,7 +110,7 @@
 #     print(i)
 
 
-#DAY13
+# DAY13
 
 # STRINGS ARE IMMUTABLE IN PYTHON
 # HOW TO FIND LENGTH OF A STRING IN PYTHON
@@ -128,6 +128,8 @@
 # print(a.upper())
 # print(b.lower())
 
+# Day 13
+# I will push the code soon
 # HOW WE CAN REPLACE ANY WORD IN STR DATA AND WHAR RSTRIP METHOD DO?
 
 # a = "Usama is a Web Developer!!!!!!!!"
@@ -163,10 +165,23 @@
 # # print(a.isalpha())
 # # print(b.isalpha()) #check if all characters are alphabetic
 # print(c.islower())
-# print(a.islower()) #check if all characters are in lower case
+# print(a.islower())
 
-a = "hello today is a holiday"
-b = "     "
-print(a.isprintable()) #check if all characters are printable
-print(b.isspace())
 
+
+#Conditional operators
+# > , < , >= , <= , == , !=
+
+a = int(input("Enter your Marks in Python: "))
+
+if(a>=70):
+    print("According to your marks, your grade is: A ")
+
+elif(a>=50):
+    print("According to your marks, your grade is: B ")
+
+elif(a>=40):
+    print("According to your marks, your grade is: C ")
+
+else:
+    print("According to your marks, your grade is: F ")
