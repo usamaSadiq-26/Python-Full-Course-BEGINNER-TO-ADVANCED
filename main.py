@@ -224,21 +224,38 @@
 
 #Exercise 02 "Good Morning sir!"
 
-import time
+# import time
 
-digitime = time.strftime("%H:%M:%S")
-print(digitime)
+# digitime = time.strftime("%H:%M:%S")
+# print(digitime)
 
-digihour = int(time.strftime("%H"))
+# digihour = int(time.strftime("%H"))
 
-if (digihour>=6 and digihour<12):
-    print("Good Morning Sir!")
+# if (digihour>=6 and digihour<12):
+#     print("Good Morning Sir!")
 
-elif (digihour>=12 and digihour<15):
-    print("Good Afternoon Sir!")
+# elif (digihour>=12 and digihour<15):
+#     print("Good Afternoon Sir!")
 
-elif (digihour>=15 and digihour<18):
-    print("Good Evening Sir!")
+# elif (digihour>=15 and digihour<18):
+#     print("Good Evening Sir!")
 
-else:
-    print("Good Night Sir!")
+# else:
+#     print("Good Night Sir!")
+
+
+#Match Case Statements lesson
+
+a = int(input("Enter your marks of Python: "))
+
+match a:
+    case _ if a>90:
+        print("A Grade")
+    case _ if a>70:
+        print("B Grade")
+    case _ if a>50:
+        print("C Grade")
+    case 0:
+        print("You're Hero")
+    case _:
+        print("You're fail")
