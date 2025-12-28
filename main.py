@@ -246,16 +246,53 @@
 
 #Match Case Statements lesson
 
-a = int(input("Enter your marks of Python: "))
+# a = int(input("Enter your marks of Python: "))
 
-match a:
-    case _ if a>90:
-        print("A Grade")
-    case _ if a>70:
-        print("B Grade")
-    case _ if a>50:
-        print("C Grade")
-    case 0:
-        print("You're Hero")
-    case _:
-        print("You're fail")
+# match a:
+#     case _ if a>90:
+#         print("A Grade")
+#     case _ if a>70:
+#         print("B Grade")
+#     case _ if a>50:
+#         print("C Grade")
+#     case 0:
+#         print("You're Hero")
+#     case _:
+#         print("You're fail")
+
+# for Loop in Python
+
+# for loop for str data
+
+# a = "Hanzala"
+
+# for i in a:
+#     print(i)
+#     if i=="a":
+#         print("hoo hooo hooooo")
+
+#for loop for list data
+
+# a = ["usama", "hanzala", "abbas", "asim"]
+# for name in a:
+#     print(name)
+#     for i in name:
+#         print(i)
+
+#for loop for range():
+
+# for k in range(1,6):
+#     print(k)
+# for k in range(6):
+#     print(k)
+# for k in range(0,5):
+#     print(k+1)
+
+
+#for k in range(x,y,z)
+# First parameter means, from where it will start = x
+# Second parameter means, where it will stop = y
+# Third parameter means, steps/space between the numbers, for example
+
+for k in range(0,101,10):
+    print(k)
