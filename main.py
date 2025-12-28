@@ -201,22 +201,44 @@
 
 # Nested Statement
 
-a = int(input("Enter your Marks in Python: "))
+# a = int(input("Enter your Marks in Python: "))
 
-if(a>=90):
-    print("According to your marks, your grade is: A+ ")
+# if(a>=90):
+#     print("According to your marks, your grade is: A+ ")
 
-elif(a>=40):
-    if (a>=40 and a<50):
-        print("According to your marks, your grade is: C ")
-    elif(a>=50 and a<60):
-        print("According to your marks, your grade is: C+ ")
-    elif(a>=60 and a<70):
-        print("According to your marks, your grade is: B ")
-    elif(a>=70 and a<80):
-        print("According to your marks, your grade is: B+ ")
-    else:
-        print("According to your marks, your grade is: A ")
+# elif(a>=40):
+#     if (a>=40 and a<50):
+#         print("According to your marks, your grade is: C ")
+#     elif(a>=50 and a<60):
+#         print("According to your marks, your grade is: C+ ")
+#     elif(a>=60 and a<70):
+#         print("According to your marks, your grade is: B ")
+#     elif(a>=70 and a<80):
+#         print("According to your marks, your grade is: B+ ")
+#     else:
+#         print("According to your marks, your grade is: A ")
+
+# else:
+#     print("According to your marks, your grade is: F ")
+
+
+#Exercise 02 "Good Morning sir!"
+
+import time
+
+digitime = time.strftime("%H:%M:%S")
+print(digitime)
+
+digihour = int(time.strftime("%H"))
+
+if (digihour>=6 and digihour<12):
+    print("Good Morning Sir!")
+
+elif (digihour>=12 and digihour<15):
+    print("Good Afternoon Sir!")
+
+elif (digihour>=15 and digihour<18):
+    print("Good Evening Sir!")
 
 else:
-    print("According to your marks, your grade is: F ")
+    print("Good Night Sir!")
