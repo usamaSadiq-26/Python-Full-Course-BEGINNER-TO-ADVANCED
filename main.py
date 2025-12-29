@@ -294,5 +294,12 @@
 # Second parameter means, where it will stop = y
 # Third parameter means, steps/space between the numbers, for example
 
-for k in range(0,101,10):
-    print(k)
+# for k in range(0,101,10):
+#     print(k)
+
+# while loop in python
+
+a = 0
+while (a<21):
+    print(a)
+    a=a+1
