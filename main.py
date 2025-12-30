@@ -1,4 +1,4 @@
-#  print('hey this is \"100days python code\" challenge\nand i am usama, your python teacher')
+##  print('hey this is \"100days python code\" challenge\nand i am usama, your python teacher')
 
 
 # a = 2000
