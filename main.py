@@ -1,4 +1,4 @@
-#  print('hey this is \"100days python code\" challenge\nand i am usama, your python teacher')
+##  print('hey this is \"100days python code\" challenge\nand i am usama, your python teacher')
 
 
 # a = 2000
@@ -311,7 +311,11 @@
 #     print("You just typed: ",a)
 
 
-from colorama import Fore
-import pyfiglet
-MyLove = pyfiglet.figlet_format('Happy New Year Mates')
-print(Fore.LIGHTBLUE_EX+MyLove)
+a = 5
+
+while(a>0):
+    print(a)
+    a = a - 1
+
+else:
+    print("Done with the while loop, we are in else")
