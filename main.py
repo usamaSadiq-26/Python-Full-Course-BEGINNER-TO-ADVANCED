@@ -311,11 +311,20 @@
 #     print("You just typed: ",a)
 
 
-a = 5
+# a = 5
 
-while(a>0):
-    print(a)
-    a = a - 1
+# while(a>0):
+#     print(a)
+#     a = a - 1
 
-else:
-    print("Done with the while loop, we are in else")
+# else:
+#     print("Done with the while loop, we are in else")
+
+
+from colorama import Fore
+
+import pyfiglet
+
+message = pyfiglet.figlet_format("Happy New Year")
+
+print(Fore.MAGENTA + message)
